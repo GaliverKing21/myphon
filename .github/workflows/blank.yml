@@ -8,7 +8,7 @@ jobs:
       uses: canonical/anbox-cloud-github-action@main
       with:
         channel: 1.23/stable
-        ubuntu-pro-token: ${{ secrets.UBUNTU_PRO_TOKEN }}
+        ubuntu-pro-token: C12uiEYtzNVS8Qwg21X7PhD2XFkTe1
     - name: Create Android instance
       id: create-instance
       run: |
